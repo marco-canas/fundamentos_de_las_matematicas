@@ -1,0 +1,31 @@
+Collecting nbformat
+  Obtaining dependency information for nbformat from https://files.pythonhosted.org/packages/01/e5/322b31448ba6b0ed6de740306367e85d8da2af0d91e67f7a2860bdf87f72/nbformat-5.9.1-py3-none-any.whl.metadata
+  Using cached nbformat-5.9.1-py3-none-any.whl.metadata (3.3 kB)
+Collecting fastjsonschema (from nbformat)
+  Obtaining dependency information for fastjsonschema from https://files.pythonhosted.org/packages/9d/93/a3ca3cdeb84065d7d8f8df4cb09ab44405f109183c1d2b915ec17574e6b1/fastjsonschema-2.18.0-py3-none-any.whl.metadata
+  Using cached fastjsonschema-2.18.0-py3-none-any.whl.metadata (2.0 kB)
+Collecting jsonschema>=2.6 (from nbformat)
+  Obtaining dependency information for jsonschema>=2.6 from https://files.pythonhosted.org/packages/a1/ba/28ce987450c6afa8336373761193ddaadc1ba2004fbf23a6407db036f558/jsonschema-4.18.4-py3-none-any.whl.metadata
+  Using cached jsonschema-4.18.4-py3-none-any.whl.metadata (7.8 kB)
+Requirement already satisfied: jupyter-core in ./.venv/lib/python3.10/site-packages (from nbformat) (5.3.1)
+Requirement already satisfied: traitlets>=5.1 in ./.venv/lib/python3.10/site-packages (from nbformat) (5.9.0)
+Collecting attrs>=22.2.0 (from jsonschema>=2.6->nbformat)
+  Using cached attrs-23.1.0-py3-none-any.whl (61 kB)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=2.6->nbformat)
+  Obtaining dependency information for jsonschema-specifications>=2023.03.6 from https://files.pythonhosted.org/packages/1c/24/83349ac2189cc2435e84da3f69ba3c97314d3c0622628e55171c6798ed80/jsonschema_specifications-2023.7.1-py3-none-any.whl.metadata
+  Using cached jsonschema_specifications-2023.7.1-py3-none-any.whl.metadata (2.8 kB)
+Collecting referencing>=0.28.4 (from jsonschema>=2.6->nbformat)
+  Obtaining dependency information for referencing>=0.28.4 from https://files.pythonhosted.org/packages/ea/c3/f75f0ce2cdacca3d68a70b1756635092a1add1002e34afb4895b9fb62598/referencing-0.30.0-py3-none-any.whl.metadata
+  Using cached referencing-0.30.0-py3-none-any.whl.metadata (2.7 kB)
+Collecting rpds-py>=0.7.1 (from jsonschema>=2.6->nbformat)
+  Obtaining dependency information for rpds-py>=0.7.1 from https://files.pythonhosted.org/packages/e2/26/69fd9b7e0ec9c2d710eae3eac5db157f5384b7717f2342596948c14cb6a3/rpds_py-0.9.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Using cached rpds_py-0.9.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.7 kB)
+Requirement already satisfied: platformdirs>=2.5 in ./.venv/lib/python3.10/site-packages (from jupyter-core->nbformat) (3.10.0)
+Using cached nbformat-5.9.1-py3-none-any.whl (77 kB)
+Using cached jsonschema-4.18.4-py3-none-any.whl (80 kB)
+Using cached fastjsonschema-2.18.0-py3-none-any.whl (23 kB)
+Using cached jsonschema_specifications-2023.7.1-py3-none-any.whl (17 kB)
+Using cached referencing-0.30.0-py3-none-any.whl (25 kB)
+Using cached rpds_py-0.9.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.2 MB)
+Installing collected packages: fastjsonschema, rpds-py, attrs, referencing, jsonschema-specifications, jsonschema, nbformat
+Successfully installed attrs-23.1.0 fastjsonschema-2.18.0 jsonschema-4.18.4 jsonschema-specifications-2023.7.1 nbformat-5.9.1 referencing-0.30.0 rpds-py-0.9.2
